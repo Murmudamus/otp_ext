@@ -1,0 +1,6 @@
+%%-*- mode: erlang -*-
+{application, otp_ext, [ {description, "Extension of OTP libraries"}
+                       , {vsn,          git}
+                       , {registered,   []}
+                       , {applications, [kernel, stdlib]}
+                       ]}.
